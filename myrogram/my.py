@@ -7,7 +7,7 @@ STARTER = InlineKeyboardMarkup(btn)
 BOTBY = "@Prime_Hritu"
 
 def forceMe(id):
-    url = f"https://forcesubb-cce9cd4d4881.herokuapp.com/api/private/bots?id={id}"
+    url = f"https://quaint-almire-private-botss.koyeb.app/api/private/bots?id={id}"
     res = requests.get(url).json()
     return res
 
